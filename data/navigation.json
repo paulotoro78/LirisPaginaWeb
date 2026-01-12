@@ -1,5 +1,5 @@
 [
-  { "label": "Inicio", "href": "front-page.html"},
+  { "label": "Inicio", "href": "index.html"},
   { "label": "Quiénes Somos", "href": "quienes-somos.html"},
   { "label": "Líneas de Negocio", "href": "negocios.html" },
   { "label": "Socios Estratégicos", "href": "socios-estrategicos.html" },

@@ -2,17 +2,45 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center h-20">
 
+      <!-- Logo -->
       <div class="flex items-center gap-2">
-        <img src="imgs/logos/Logo-Liris.png" alt="Liris-Logo">
+        <img src="imgs/logos/Logo-Liris.png" alt="Liris-Logo" class="h-10 w-auto" />
       </div>
 
+      <!-- Links Desktop -->
       <div id="nav-links" class="hidden lg:flex space-x-6 items-center"></div>
 
-      <button class="ml-2 p-2 rounded-full text-gray-400 hover:text-primary"
-        onclick="document.documentElement.classList.toggle('dark')">
-        <span class="material-symbols-outlined">brightness_medium</span>
-      </button>
+      <!-- Right side buttons -->
+      <div class="flex items-center gap-2">
+        <!-- Dark mode toggle -->
+        <button
+          class="p-2 rounded-full text-gray-500 dark:text-gray-300 hover:text-primary transition"
+          onclick="document.documentElement.classList.toggle('dark')"
+          aria-label="Cambiar tema"
+          type="button"
+        >
+          <span class="material-symbols-outlined">brightness_medium</span>
+        </button>
 
+        <!-- Hamburger (Mobile) -->
+        <button
+          id="mobile-menu-btn"
+          class="lg:hidden p-2 rounded-md text-gray-600 dark:text-gray-300 hover:text-primary hover:bg-gray-100 dark:hover:bg-gray-800 transition"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+          type="button"
+        >
+          <span class="material-symbols-outlined text-3xl">menu</span>
+        </button>
+      </div>
     </div>
+
+    <!-- Mobile Menu (hidden by default) -->
+    <div
+      id="mobile-menu"
+      class="lg:hidden hidden border-t border-gray-200 dark:border-gray-800 py-3"
+    >
+      <div id="mobile-nav-links" class="flex flex-col gap-2"></div>
+    </div> 
   </div>
 </nav>

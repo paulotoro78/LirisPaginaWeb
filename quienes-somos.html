@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liris - Quienes Somos</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+
+    <!-- Tailwind Config -->
+    <script src="js/main.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body
+    class="font-body bg-background-light dark:bg-background-dark text-gray-800 dark:text-gray-200 antialiased transition-colors duration-300">
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+    <!-- Main Content -->
+    <main>
+        <section class="relative w-full min-h-[600px] flex items-center justify-center overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <img src="imgs/bodys/bannerQuienesSomos.png" alt="Área de faenado"
+                    class="absolute inset-0 w-full h-full object-cover" loading="lazy" decoding="async">
+
+                <div class="absolute inset-0 bg-gray-900/60 dark:bg-black/70 mix-blend-multiply"></div>
+                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+            </div>
+            <div class="relative z-10 container mx-auto px-4 text-center">
+                <div class="max-w-4xl mx-auto fade-in-up">
+                    <h1
+                        class="font-display font-extrabold text-5xl md:text-7xl text-white mb-6 uppercase tracking-tight drop-shadow-lg">
+                        QUIÉNES SOMOS LIRIS
+                    </h1>
+                    <h2 class="font-display font-bold text-2xl md:text-3xl text-white/90 mb-8 max-w-2xl mx-auto">
+                        Cultivando Futuro, Sirviendo Calidad y Confianza
+                    </h2>
+                    <p class="text-lg text-white/80 font-medium mb-10 max-w-3xl mx-auto leading-relaxed">
+                        Somos más que una empresa avícola; somos una familia dedicada a nutrir comunidades con
+                        integridad y excelencia.
+                    </p>
+                    <a class="inline-flex items-center px-8 py-4 bg-tertiary text-white font-bold text-lg rounded shadow-lg hover:bg-primary transition-all transform hover:-translate-y-1"
+                        href="#historia">
+                        Nuestra Historia
+                        <span class="material-symbols-outlined ml-2">history_edu</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="w-full bg-secondary dark:bg-yellow-600/20 py-20 px-4 scroll-mt-20" id="historia">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16 fade-in-up">
+                    <h2
+                        class="font-display font-extrabold text-3xl md:text-4xl text-gray-900 dark:text-white mb-6 uppercase tracking-wider">
+                        NUESTRA ESENCIA: HISTORIA Y EVOLUCIÓN
+                    </h2>
+                    <p class="text-gray-800 dark:text-gray-200 text-lg max-w-2xl mx-auto font-medium">
+                        Un recorrido por los momentos que definieron nuestro camino hacia la excelencia.
+                    </p>
+                </div>
+
+                <!-- Componente Timeline -->
+                <div id="timeline"></div>
+
+                <!-- Botón cargar más -->
+                <div class="mt-12 text-center">
+                    <button id="loadMoreTimeline"
+                        class="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-bold rounded hover:bg-primary/90 transition">
+                        Ver más hitos
+                        <span class="material-symbols-outlined">arrow_forward</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="w-full bg-background-light dark:bg-background-dark py-20 px-4">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16 fade-in-up">
+                    <h2
+                        class="font-display font-extrabold text-3xl md:text-4xl text-gray-900 dark:text-white mb-6 uppercase tracking-wider">
+                        NUESTRA PROMESA: MISIÓN, VISIÓN Y VALORES
+                    </h2>
+                    <p class="text-gray-600 dark:text-gray-400 text-lg max-w-2xl mx-auto">
+                        Los cimientos sobre los que construimos cada relación comercial y cada producto.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16 fade-in-up delay-100">
+                    <div
+                        class="bg-surface-light dark:bg-surface-dark p-8 md:p-12 rounded-2xl flex flex-col items-center text-center relative overflow-hidden group hover:shadow-lg transition-all duration-300">
+                        <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-primary to-secondary"></div>
+                        <div
+                            class="bg-white dark:bg-gray-700 w-20 h-20 rounded-full flex items-center justify-center mb-6 shadow-sm group-hover:scale-110 transition-transform duration-300">
+                            <span class="material-symbols-outlined text-primary text-5xl">rocket_launch</span>
+                        </div>
+                        <h3 class="font-display font-bold text-2xl text-gray-900 dark:text-white mb-4">Nuestra Misión
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
+                            Proveer productos avícolas de la más alta calidad, garantizando la seguridad alimentaria y
+                            el bienestar de nuestras comunidades, a través de prácticas sostenibles e innovadoras.
+                        </p>
+                    </div>
+                    <div
+                        class="bg-surface-light dark:bg-surface-dark p-8 md:p-12 rounded-2xl flex flex-col items-center text-center relative overflow-hidden group hover:shadow-lg transition-all duration-300">
+                        <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-secondary to-tertiary"></div>
+                        <div
+                            class="bg-white dark:bg-gray-700 w-20 h-20 rounded-full flex items-center justify-center mb-6 shadow-sm group-hover:scale-110 transition-transform duration-300">
+                            <span class="material-symbols-outlined text-tertiary text-5xl">visibility</span>
+                        </div>
+                        <h3 class="font-display font-bold text-2xl text-gray-900 dark:text-white mb-4">Nuestra Visión
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-300 leading-relaxed">
+                            Ser reconocidos globalmente como el referente en avicultura responsable, liderando el
+                            mercado con innovación, ética y un compromiso inquebrantable con la excelencia.
+                        </p>
+                    </div>
+                </div>
+                <h3 class="text-center font-display font-bold text-2xl text-gray-900 dark:text-white mb-10">Nuestros
+                    Valores Corporativos</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 fade-in-up delay-200">
+                    <div class="group h-64 perspective-1000 cursor-pointer">
+                        <div
+                            class="relative w-full h-full text-center transition-transform duration-700 transform-style-3d group-hover:rotate-y-180 shadow-md rounded-xl">
+                            <div
+                                class="absolute w-full h-full backface-hidden bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 rounded-xl flex flex-col items-center justify-center p-6">
+                                <span class="material-symbols-outlined text-primary text-6xl mb-4">verified_user</span>
+                                <h4 class="text-xl font-bold text-gray-900 dark:text-white">Integridad</h4>
+                            </div>
+                            <div
+                                class="absolute w-full h-full backface-hidden bg-primary rotate-y-180 rounded-xl flex flex-col items-center justify-center p-6 text-white">
+                                <h4 class="text-xl font-bold mb-2">Integridad</h4>
+                                <p class="text-sm">Actuamos con honestidad y transparencia en cada decisión y proceso.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group h-64 perspective-1000 cursor-pointer">
+                        <div
+                            class="relative w-full h-full text-center transition-transform duration-700 transform-style-3d group-hover:rotate-y-180 shadow-md rounded-xl">
+                            <div
+                                class="absolute w-full h-full backface-hidden bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 rounded-xl flex flex-col items-center justify-center p-6">
+                                <span class="material-symbols-outlined text-secondary text-6xl mb-4">handshake</span>
+                                <h4 class="text-xl font-bold text-gray-900 dark:text-white">Compromiso</h4>
+                            </div>
+                            <div
+                                class="absolute w-full h-full backface-hidden bg-secondary rotate-y-180 rounded-xl flex flex-col items-center justify-center p-6 text-gray-900">
+                                <h4 class="text-xl font-bold mb-2">Compromiso</h4>
+                                <p class="text-sm font-medium">Dedicados al éxito de nuestros clientes, empleados y
+                                    socios.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group h-64 perspective-1000 cursor-pointer">
+                        <div
+                            class="relative w-full h-full text-center transition-transform duration-700 transform-style-3d group-hover:rotate-y-180 shadow-md rounded-xl">
+                            <div
+                                class="absolute w-full h-full backface-hidden bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 rounded-xl flex flex-col items-center justify-center p-6">
+                                <span class="material-symbols-outlined text-tertiary text-6xl mb-4">psychology</span>
+                                <h4 class="text-xl font-bold text-gray-900 dark:text-white">Innovación</h4>
+                            </div>
+                            <div
+                                class="absolute w-full h-full backface-hidden bg-tertiary rotate-y-180 rounded-xl flex flex-col items-center justify-center p-6 text-white">
+                                <h4 class="text-xl font-bold mb-2">Innovación</h4>
+                                <p class="text-sm">Buscamos constantemente nuevas formas de mejorar y liderar el cambio.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group h-64 perspective-1000 cursor-pointer">
+                        <div
+                            class="relative w-full h-full text-center transition-transform duration-700 transform-style-3d group-hover:rotate-y-180 shadow-md rounded-xl">
+                            <div
+                                class="absolute w-full h-full backface-hidden bg-white dark:bg-gray-800 border border-gray-100 dark:border-gray-700 rounded-xl flex flex-col items-center justify-center p-6">
+                                <span class="material-symbols-outlined text-primary text-6xl mb-4">egg_alt</span>
+                                <h4 class="text-xl font-bold text-gray-900 dark:text-white">Calidad</h4>
+                            </div>
+                            <div
+                                class="absolute w-full h-full backface-hidden bg-primary rotate-y-180 rounded-xl flex flex-col items-center justify-center p-6 text-white">
+                                <h4 class="text-xl font-bold mb-2">Calidad</h4>
+                                <p class="text-sm">La excelencia es nuestro estándar mínimo en todo lo que hacemos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="w-full bg-tertiary py-20 px-4">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16 fade-in-up">
+                    <h2
+                        class="font-display font-extrabold text-3xl md:text-4xl text-white mb-6 uppercase tracking-wider">
+                        NUESTRO LIDERAZGO
+                    </h2>
+                    <p class="text-white/90 text-lg max-w-2xl mx-auto font-medium">
+                        Un equipo de expertos apasionados guiando el futuro de Liris.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 fade-in-up delay-100">
+                    <div
+                        class="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center group hover:bg-white/20 transition-all duration-300">
+                        <div
+                            class="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-white/30 group-hover:border-white transition-colors duration-300">
+                            <img src="imgs/bodys/avatarH1.png" alt="avatar1" class="w-full h-full object-cover">                        </div>
+                        <h3 class="text-xl font-bold text-white">Roberto García</h3>
+                        <p class="text-white/80 text-sm font-medium uppercase tracking-wide mt-1">Director General</p>
+                    </div>
+                    <div
+                        class="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center group hover:bg-white/20 transition-all duration-300">
+                        <div
+                            class="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-white/30 group-hover:border-white transition-colors duration-300">
+                            <img src="imgs/bodys/avatarM1.png" alt="avatar2" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="text-xl font-bold text-white">María González</h3>
+                        <p class="text-white/80 text-sm font-medium uppercase tracking-wide mt-1">Dir. de Operaciones
+                        </p>
+                    </div>
+                    <div
+                        class="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center group hover:bg-white/20 transition-all duration-300">
+                        <div
+                            class="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-white/30 group-hover:border-white transition-colors duration-300">
+                            <img src="imgs/bodys/avatarH2.png" alt="avatar3" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Carlos Pérez</h3>
+                        <p class="text-white/80 text-sm font-medium uppercase tracking-wide mt-1">Dir. Comercial</p>
+                    </div>
+                    <div
+                        class="bg-white/10 backdrop-blur-md rounded-xl p-6 text-center group hover:bg-white/20 transition-all duration-300">
+                        <div
+                            class="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-white/30 group-hover:border-white transition-colors duration-300">
+                            <img src="imgs/bodys/avatarM2.png" alt="avatar4" class="w-full h-full object-cover">
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Ana Rodríguez</h3>
+                        <p class="text-white/80 text-sm font-medium uppercase tracking-wide mt-1">Dir. de Calidad</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="w-full py-16 bg-surface-light dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-10 fade-in-up">
+                    <h2
+                        class="font-display font-bold text-2xl text-gray-500 dark:text-gray-400 uppercase tracking-widest">
+                        Avalados por
+                    </h2>
+                </div>
+                <div
+                    class="flex flex-wrap justify-center gap-10 items-center opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
+                    <img src="imgs/logos/AGROCALIDAD_AGROCALIDAD-300x93.png" alt="Liris-Logo">
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!-- JS -->
+    <script src="js/timeline-component.js"></script>
+</body>
+
+</html>

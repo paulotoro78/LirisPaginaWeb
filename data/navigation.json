@@ -1,0 +1,9 @@
+[
+  { "label": "Inicio", "href": "front-page.html"},
+  { "label": "Quiénes Somos", "href": "quienes-somos.html"},
+  { "label": "Líneas de Negocio", "href": "negocios.html" },
+  { "label": "Socios Estratégicos", "href": "socios-estrategicos.html" },
+  { "label": "Trabaja con Nosotros", "href": "trabaja-nosotros.html" },
+  { "label": "Noticias", "href": "noticias.html" },
+  { "label": "Contáctanos", "href": "contactanos.html", "button": true }
+]

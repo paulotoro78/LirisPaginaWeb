@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liris - Lineas de Negocio</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+
+    <!-- Tailwind Config -->
+    <script src="js/main.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body
+    class="font-body bg-background-light dark:bg-background-dark text-gray-800 dark:text-gray-200 antialiased transition-colors duration-300">
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+    <!-- Main Content -->
+    <main>
+        <section class="relative w-full h-[600px] flex items-center justify-center overflow-hidden">
+            <img src="imgs/bodys/bannerTrabajaNosotros.png" alt="BanerHero work" class="absolute inset-0 w-full h-full object-cover">
+
+            <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-primary/30 mix-blend-multiply">
+            </div>
+            <div class="relative z-10 text-center max-w-4xl px-4 fade-in-up">
+                <h1
+                    class="font-display font-extrabold text-4xl md:text-6xl text-white mb-6 uppercase tracking-wide leading-tight drop-shadow-lg">
+                    FORMA PARTE DE LIRIS
+                </h1>
+                <p class="text-xl text-white/90 font-medium mb-8 leading-relaxed max-w-3xl mx-auto drop-shadow-md">
+                    Únete a un equipo apasionado que lidera la transformación de la industria avícola. En Liris, tu
+                    talento impulsa la innovación y el crecimiento sostenible en cada etapa de nuestra cadena de valor.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a class="inline-flex items-center justify-center px-8 py-4 bg-primary text-white font-bold text-lg rounded hover:bg-tertiary transition-all shadow-lg transform hover:-translate-y-1"
+                        href="#vacantes">
+                        Ver Vacantes
+                        <span class="material-symbols-outlined ml-2">work</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="w-full py-24 bg-surface-light dark:bg-gray-800 flex items-center justify-center px-4">
+            <div
+                class="w-full max-w-md bg-white dark:bg-gray-900 rounded-2xl shadow-xl overflow-hidden fade-in-up delay-100 border border-gray-100 dark:border-gray-700">
+                <div class="p-8 md:p-10">
+                    <div class="text-center mb-8">
+                        <span class="material-symbols-outlined text-primary text-5xl mb-4">badge</span>
+                        <h2 class="font-display font-bold text-2xl text-gray-900 dark:text-white">Portal de Candidatos
+                        </h2>
+                        <p class="text-sm text-gray-500 dark:text-gray-400 mt-2">Accede para gestionar tus postulaciones
+                        </p>
+                    </div>
+                    <form class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1"
+                                for="email">Correo Electrónico</label>
+                            <input
+                                class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-primary transition-colors outline-none"
+                                id="email" placeholder="ejemplo@correo.com" type="email" />
+                        </div>
+                        <div>
+                            <div class="flex items-center justify-between mb-1">
+                                <label class="block text-sm font-medium text-gray-700 dark:text-gray-300"
+                                    for="password">Contraseña</label>
+                                <a class="text-sm font-medium text-primary hover:text-tertiary transition-colors"
+                                    href="#">¿Olvidaste tu contraseña?</a>
+                            </div>
+                            <input
+                                class="w-full px-4 py-3 bg-gray-50 dark:bg-gray-800 border border-gray-300 dark:border-gray-600 rounded-lg text-gray-900 dark:text-white focus:ring-2 focus:ring-primary focus:border-primary transition-colors outline-none"
+                                id="password" placeholder="••••••••" type="password" />
+                        </div>
+                        <div class="pt-2 flex flex-col gap-4">
+                            <button
+                                class="w-full py-3.5 px-4 bg-primary hover:bg-tertiary text-white font-bold rounded-lg transition-colors shadow-md shadow-primary/30"
+                                type="button">
+                                Iniciar Sesión
+                            </button>
+                            <button
+                                class="w-full py-3.5 px-4 bg-transparent border-2 border-primary text-primary hover:bg-primary/5 dark:hover:bg-primary/10 font-bold rounded-lg transition-colors"
+                                type="button">
+                                Registrarse
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="w-full flex flex-col lg:flex-row min-h-[600px]">
+            <div class="w-full lg:w-1/2 bg-secondary flex items-center justify-center p-12 lg:p-20 order-2 lg:order-1">
+                <div class="max-w-xl fade-in-up delay-200">
+                    <h2 class="font-display font-extrabold text-3xl md:text-5xl text-gray-900 mb-8 leading-tight">
+                        NUESTRO COMPROMISO CON EL TALENTO
+                    </h2>
+                    <p class="text-gray-800 text-lg font-medium mb-10 leading-relaxed">
+                        En Liris no solo criamos aves, cultivamos carreras. Creemos en el potencial de nuestra gente
+                        como el motor principal de nuestra excelencia operativa.
+                    </p>
+                    <div class="space-y-8">
+                        <div class="flex items-start gap-4 group">
+                            <div class="p-3 bg-white/30 rounded-lg group-hover:bg-white/50 transition-colors">
+                                <span class="material-symbols-outlined text-gray-900 text-3xl">school</span>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-xl text-gray-900 mb-1">Capacitación Constante</h3>
+                                <p class="text-gray-800/80 text-sm leading-relaxed">Programas de formación continua para
+                                    potenciar tus habilidades técnicas y de liderazgo.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 group">
+                            <div class="p-3 bg-white/30 rounded-lg group-hover:bg-white/50 transition-colors">
+                                <span class="material-symbols-outlined text-gray-900 text-3xl">health_and_safety</span>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-xl text-gray-900 mb-1">Ambiente Seguro</h3>
+                                <p class="text-gray-800/80 text-sm leading-relaxed">Estándares rigurosos de seguridad
+                                    industrial para garantizar el bienestar de cada colaborador.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4 group">
+                            <div class="p-3 bg-white/30 rounded-lg group-hover:bg-white/50 transition-colors">
+                                <span class="material-symbols-outlined text-gray-900 text-3xl">lightbulb</span>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-xl text-gray-900 mb-1">Innovación y Tecnología</h3>
+                                <p class="text-gray-800/80 text-sm leading-relaxed">Trabaja con sistemas automatizados
+                                    de vanguardia en la industria avícola.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2 relative h-[500px] lg:h-auto overflow-hidden order-1 lg:order-2 group">
+                <img src="imgs/bodys/completarTrabaja.png" alt="Colaboradores trabajando con sistemas automatizados"
+                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                <div class="absolute inset-0 bg-primary/10 group-hover:bg-transparent transition-colors duration-500">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!-- JS -->
+    <script src="js/navbar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liris - Lineas de Negocio</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+
+    <!-- Tailwind Config -->
+    <script src="js/main.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body
+    class="font-body bg-background-light dark:bg-background-dark text-gray-800 dark:text-gray-200 antialiased transition-colors duration-300">
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+    <!-- Main Content -->
+    <main>
+        <section class="w-full bg-white dark:bg-background-dark py-12 md:py-20">
+            <div class="max-w-7xl mx-auto px-4 text-center fade-in-up">
+                <div class="h-0.5 w-16 bg-gray-300 dark:bg-gray-700 mx-auto mb-6"></div>
+                <h1
+                    class="font-display font-light text-5xl md:text-6xl text-dark-gray-editorial dark:text-gray-200 leading-tight tracking-tight mb-2">
+                    NOVEDADES Y EVENTOS
+                </h1>
+                <h2 class="font-display font-extrabold text-6xl md:text-7xl text-primary uppercase leading-none">
+                    LIRIS
+                </h2>
+            </div>
+        </section>
+        <section class="w-full flex flex-col lg:flex-row min-h-[500px]">
+            <div class="w-full lg:w-1/2 relative h-80 lg:h-auto overflow-hidden group">
+                <img alt="Liris inaugura nueva planta de procesamiento sostenible"
+                    class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDdaZccrFGIiiI6bXHGe18xfsgFmk6wzhkzaTDRP0FC6W4AOjzCqyCAf4m0FDIIfP6fma8jmFPqZDzdg1jkUegVR191yzx6Y9bs89v5wQnTZ1Z_p9mQVlxDVBR5PSBkLcL5pPaXnBD57dClhwPeECeGY0zefiZOjo1p8Yoqs6tTeBs328PqWG7dvXv40GwCUx_rPeKdCMhPf98vySmNcmMQNwCwm4Ke7XJJKr8mAljDRQd_eJFtu3iJbx-4sUE6j4xtCu_ysapX4vKm" />
+            </div>
+            <div class="w-full lg:w-1/2 bg-secondary flex items-center justify-center p-12 lg:p-20 relative">
+                <div class="max-w-lg fade-in-up">
+                    <div class="flex items-center gap-2 mb-4">
+                        <span
+                            class="px-3 py-1 bg-gray-900 text-white text-xs font-bold uppercase rounded-full">Destacado</span>
+                        <span class="text-gray-800 text-sm font-medium">15 de Octubre, 2023</span>
+                    </div>
+                    <h2 class="font-display font-extrabold text-3xl md:text-4xl text-gray-900 mb-6 leading-tight">
+                        LIRIS INAUGURA NUEVA PLANTA DE PROCESAMIENTO SOSTENIBLE
+                    </h2>
+                    <p class="text-gray-800 text-lg mb-8 leading-relaxed font-medium">
+                        Con una inversión histórica, abrimos las puertas de nuestra instalación más moderna hasta la
+                        fecha, diseñada para minimizar la huella de carbono y maximizar la eficiencia productiva en la
+                        región.
+                    </p>
+                    <a class="inline-block px-6 py-3 border-2 border-gray-900 text-gray-900 font-bold rounded hover:bg-gray-900 hover:text-white transition-colors"
+                        href="#">
+                        Leer Noticia Completa
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="w-full bg-tertiary dark:bg-tertiary/20 py-16 px-4">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-10 fade-in-up">
+                    <h2 class="font-display font-extrabold text-3xl text-white mb-2 uppercase tracking-wider">
+                        BUSCA POR CATEGORÍA
+                    </h2>
+                    <div class="w-16 h-1 bg-white mx-auto rounded"></div>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-4 fade-in-up delay-100">
+                    <button
+                        class="bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 p-6 rounded-xl transition-all duration-300 group flex flex-col items-center gap-3">
+                        <svg class="w-12 h-12 text-white group-hover:scale-110 transition-transform stroke-2"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 16V4h4l3 3h4v12H7z" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M12 20h9v-4h-9v4z" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M17 12V4" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M14 9V4" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M10 9V4" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="text-white font-bold text-sm tracking-wide">AGRICULTURA</span>
+                    </button>
+                    <button
+                        class="bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 p-6 rounded-xl transition-all duration-300 group flex flex-col items-center gap-3">
+                        <svg class="w-12 h-12 text-white group-hover:scale-110 transition-transform stroke-2"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 22s-8-4-8-10V5l8-3 8 3v7c0 6-8 10-8 10z" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                            <path d="M16 10l-4 4-4-4" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M12 14V6" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="text-white font-bold text-sm tracking-wide">PECUARIA</span>
+                    </button>
+                    <button
+                        class="bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 p-6 rounded-xl transition-all duration-300 group flex flex-col items-center gap-3">
+                        <svg class="w-12 h-12 text-white group-hover:scale-110 transition-transform stroke-2"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 9L12 2l9 7V20a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                            <path d="M9 22V12h6v10" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="text-white font-bold text-sm tracking-wide">RETAIL</span>
+                    </button>
+                    <button
+                        class="bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 p-6 rounded-xl transition-all duration-300 group flex flex-col items-center gap-3">
+                        <svg class="w-12 h-12 text-white group-hover:scale-110 transition-transform stroke-2"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 00-3-3.87m-3-1.43a4 4 0 010-7.38" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="text-white font-bold text-sm tracking-wide">COMUNIDAD</span>
+                    </button>
+                    <button
+                        class="bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 p-6 rounded-xl transition-all duration-300 group flex flex-col items-center gap-3">
+                        <svg class="w-12 h-12 text-white group-hover:scale-110 transition-transform stroke-2"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 12h18M12 3v18" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 2a10 10 0 000 20A10 10 0 0012 2z" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="text-white font-bold text-sm tracking-wide">INNOVACIÓN</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="w-full py-20 bg-surface-light dark:bg-gray-800">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16 fade-in-up">
+                    <h2
+                        class="font-display font-extrabold text-3xl md:text-5xl text-gray-900 dark:text-white mb-4 uppercase">
+                        MÁS NOTICIAS DE LIRIS
+                    </h2>
+                    <p class="text-lg text-gray-600 dark:text-gray-300 font-medium max-w-2xl mx-auto">
+                        Explora nuestro historial de logros y compromisos con el desarrollo agroindustrial.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 fade-in-up delay-200">
+                    <div
+                        class="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-md group hover:shadow-2xl transition-all duration-300 flex flex-col h-full">
+                        <div class="h-56 overflow-hidden relative">
+                            <div
+                                class="absolute top-4 left-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full z-10 shadow-sm">
+                                Comunidad</div>
+                            <img alt="Liris fortalece su compromiso social con donaciones"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMWtW1YV0RwjekAMHkJVbjfhnQL4WHIA2bgO_2L5lZBppRYxfGPvJe5PinMCothlazsbMfvEfzQXf9mT3zDsnk1thEQa_8tSU7foaOtdBmU_VegAfFqX2ISROANJJIoaSyR3_KVyL5TqKhsA_V7dSBRnt2PXc6dCGsxlB2ncuJfmVnfnGkfiWqPUmREpm-JpATWkOIKUGzEKbC5phe8bp82DI_WYZzcVoAtCAuU4IRz4IFeuMRxj1wx0NCc4jwz1wWCtrMPCDDihxR" />
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <div class="flex items-center text-xs text-gray-500 dark:text-gray-400 mb-3 space-x-2">
+                                <span class="material-symbols-outlined text-sm">calendar_today</span>
+                                <span>10 de Septiembre, 2023</span>
+                            </div>
+                            <h3
+                                class="font-display font-bold text-xl text-gray-900 dark:text-white mb-3 line-clamp-2 hover:text-primary transition-colors">
+                                Liris Fortalece su Compromiso Social en Zonas Rurales
+                            </h3>
+                            <p
+                                class="text-gray-600 dark:text-gray-300 text-sm mb-6 flex-grow line-clamp-3 leading-relaxed">
+                                A través de nuestro programa "Nutriendo Futuros", hemos entregado más de 5 toneladas de
+                                alimentos a comedores comunitarios en las áreas cercanas a nuestras granjas.
+                            </p>
+                            <div class="mt-auto">
+                                <a class="inline-flex items-center text-primary font-bold text-sm hover:text-tertiary transition-colors group-hover:translate-x-1 duration-300"
+                                    href="#">
+                                    Leer Noticia <span
+                                        class="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-md group hover:shadow-2xl transition-all duration-300 flex flex-col h-full">
+                        <div class="h-56 overflow-hidden relative">
+                            <div
+                                class="absolute top-4 left-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full z-10 shadow-sm">
+                                Innovación</div>
+                            <img alt="Nuevas tecnologías en avicultura"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzZ8Xy8v9M3N2xQICdnnBTDMnTVZV5GMURcE3Q5inti7RvDBUm_hr87FMse6R6Yo2wGwLS1xnQ_HWqxLHJRsatVPFD229v0il8paVz9g-70ES7T-7bO5QP76y83gkRXQqb-PQ1b2AAnfhYgqgRKh4JbBQpsXFGuWb-efo1S5emHrNb0JqX-jTgbSoncV5iHzcguFkgwqvU6ETz8rm7y92_mSKipROnxis9SedvGZGLYnM0IvRD73WMP0jQ-Ukn-kgFE-NPBRC7bSOL" />
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <div class="flex items-center text-xs text-gray-500 dark:text-gray-400 mb-3 space-x-2">
+                                <span class="material-symbols-outlined text-sm">calendar_today</span>
+                                <span>28 de Agosto, 2023</span>
+                            </div>
+                            <h3
+                                class="font-display font-bold text-xl text-gray-900 dark:text-white mb-3 line-clamp-2 hover:text-primary transition-colors">
+                                Tecnología de Punta para el Monitoreo Avícola
+                            </h3>
+                            <p
+                                class="text-gray-600 dark:text-gray-300 text-sm mb-6 flex-grow line-clamp-3 leading-relaxed">
+                                Implementamos un nuevo sistema de sensores inteligentes que nos permite asegurar el
+                                bienestar animal las 24 horas del día, optimizando la temperatura y alimentación.
+                            </p>
+                            <div class="mt-auto">
+                                <a class="inline-flex items-center text-primary font-bold text-sm hover:text-tertiary transition-colors group-hover:translate-x-1 duration-300"
+                                    href="#">
+                                    Leer Noticia <span
+                                        class="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-md group hover:shadow-2xl transition-all duration-300 flex flex-col h-full">
+                        <div class="h-56 overflow-hidden relative">
+                            <div
+                                class="absolute top-4 left-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full z-10 shadow-sm">
+                                Retail</div>
+                            <img alt="Expansión de productos retail en supermercados"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlmE3PzXPZf77uldSxtuKxo3eYkPsIDbzJyIMHnO9pbauCHOhlMtDWZBeOur4trrSGHYnKk9Ti1bvpIpf32wcFsjZcHhuSqvyeXh8k9_EPfF_6cLsBQVv_-1jSa23LUOM2c_6-yTz-ttQcizFoS1f0_AsbH0Q46o2uo15c2Sa7YRsJJPJHJ-C2nYbZGOVyHAnCn2ORC6vqK5TWXfZhIBtdR7T_0VObB4r9r1rRScIPJWGqfbGYMbJRgBuzlNcTK-xl1_WFMgI08_Fy" />
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <div class="flex items-center text-xs text-gray-500 dark:text-gray-400 mb-3 space-x-2">
+                                <span class="material-symbols-outlined text-sm">calendar_today</span>
+                                <span>12 de Julio, 2023</span>
+                            </div>
+                            <h3
+                                class="font-display font-bold text-xl text-gray-900 dark:text-white mb-3 line-clamp-2 hover:text-primary transition-colors">
+                                Nueva Línea Premium Llega a Supermercados Nacionales
+                            </h3>
+                            <p
+                                class="text-gray-600 dark:text-gray-300 text-sm mb-6 flex-grow line-clamp-3 leading-relaxed">
+                                Nuestra aclamada línea de pollos orgánicos ahora está disponible en las principales
+                                cadenas de supermercados del país, acercando la calidad Liris a más hogares.
+                            </p>
+                            <div class="mt-auto">
+                                <a class="inline-flex items-center text-primary font-bold text-sm hover:text-tertiary transition-colors group-hover:translate-x-1 duration-300"
+                                    href="#">
+                                    Leer Noticia <span
+                                        class="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-md group hover:shadow-2xl transition-all duration-300 flex flex-col h-full">
+                        <div class="h-56 overflow-hidden relative">
+                            <div
+                                class="absolute top-4 left-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full z-10 shadow-sm">
+                                Agricultura</div>
+                            <img alt="Campo de cultivo sostenible"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCeOWvLez9U2hj0sngPcyhFL_rnJPaTDdmq0fxCmmSFH4wjw5nL7kzarK6xxcbMJ2Irdw_5uwgAFF7UDo7XN6P64-VQJ4a_6ezVo72r_jEOmnxM60qZlqIhA9f0IOy3zUNWXAihX5gqV25d-yIHUCBp_IMShB830oJ5Epb8mzo_k1FzdgzIOPW3kCZFAvcqoaAR235qh6IXybu6HJKHJpfyOAi_-9gGV9FjBz5vbsQMaKDS6JKaDFEKdC2SJhHFrd7V7ZRvHWrQWYpD" />
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <div class="flex items-center text-xs text-gray-500 dark:text-gray-400 mb-3 space-x-2">
+                                <span class="material-symbols-outlined text-sm">calendar_today</span>
+                                <span>05 de Junio, 2023</span>
+                            </div>
+                            <h3
+                                class="font-display font-bold text-xl text-gray-900 dark:text-white mb-3 line-clamp-2 hover:text-primary transition-colors">
+                                Prácticas Sostenibles en Nuestros Cultivos de Grano
+                            </h3>
+                            <p
+                                class="text-gray-600 dark:text-gray-300 text-sm mb-6 flex-grow line-clamp-3 leading-relaxed">
+                                Adoptamos nuevas técnicas de rotación de cultivos para mejorar la salud del suelo y
+                                garantizar un alimento de mejor calidad para nuestras aves.
+                            </p>
+                            <div class="mt-auto">
+                                <a class="inline-flex items-center text-primary font-bold text-sm hover:text-tertiary transition-colors group-hover:translate-x-1 duration-300"
+                                    href="#">
+                                    Leer Noticia <span
+                                        class="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-md group hover:shadow-2xl transition-all duration-300 flex flex-col h-full">
+                        <div class="h-56 overflow-hidden relative">
+                            <div
+                                class="absolute top-4 left-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full z-10 shadow-sm">
+                                Pecuaria</div>
+                            <img alt="Veterinarios revisando salud animal"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8wCwVxnmnggVCzwJPyhzHDd69Fe6NlRe9VIBTreQmTmh5Fe3jbyceFHtE1DCM7JzY6ZhaSXaQno3GvBxRuqhz6CSKxV5-sSasQnBApvkj3IbSbohFBO8Z3SIVq0_89K2kI1yDv4f17dqal7tWKcKjYdcN6FS1706DjUZfCIfbYCezabBSEb07XnppaSxm7weYnmXFMU04AKaZIEz7YDo_uOV0N3S38kGbmBX73OOj8dbHenB-Jue8IEOHDBQHaLkuppXLb_ov0-Tl" />
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <div class="flex items-center text-xs text-gray-500 dark:text-gray-400 mb-3 space-x-2">
+                                <span class="material-symbols-outlined text-sm">calendar_today</span>
+                                <span>20 de Mayo, 2023</span>
+                            </div>
+                            <h3
+                                class="font-display font-bold text-xl text-gray-900 dark:text-white mb-3 line-clamp-2 hover:text-primary transition-colors">
+                                Reconocimiento Nacional por Bienestar Animal
+                            </h3>
+                            <p
+                                class="text-gray-600 dark:text-gray-300 text-sm mb-6 flex-grow line-clamp-3 leading-relaxed">
+                                Liris recibe el premio a la excelencia en cuidado animal por sus protocolos avanzados y
+                                ética en el manejo de granjas avícolas.
+                            </p>
+                            <div class="mt-auto">
+                                <a class="inline-flex items-center text-primary font-bold text-sm hover:text-tertiary transition-colors group-hover:translate-x-1 duration-300"
+                                    href="#">
+                                    Leer Noticia <span
+                                        class="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-md group hover:shadow-2xl transition-all duration-300 flex flex-col h-full">
+                        <div class="h-56 overflow-hidden relative">
+                            <div
+                                class="absolute top-4 left-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full z-10 shadow-sm">
+                                Corporativo</div>
+                            <img alt="Reunión de socios estratégicos"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0SnPavsxADCIWyIDELgGfFMn8L4-oCaAGEs4qjG911ClV3ErQbilF6-9MqxHga7tgkZpXZ5wMwYYSAxV5_4-j22GSlfrTcItDlyV5jDgvCDw4I2TFD1ZynJU0_-v1qgcHzjVyaBIVI-3NuA43fX5Ghh-JyP88Wt4y2g8xz3qpLZJzYr61xnBwPJ3GjT9oTCNPEWB8nHzJghojahsPTIB2OhO1QNhHvoBZuID5-EGfxKjtVGcwbYrAR0EantbqHF8YNIQyesdrXTNz" />
+                        </div>
+                        <div class="p-6 flex flex-col flex-grow">
+                            <div class="flex items-center text-xs text-gray-500 dark:text-gray-400 mb-3 space-x-2">
+                                <span class="material-symbols-outlined text-sm">calendar_today</span>
+                                <span>02 de Abril, 2023</span>
+                            </div>
+                            <h3
+                                class="font-display font-bold text-xl text-gray-900 dark:text-white mb-3 line-clamp-2 hover:text-primary transition-colors">
+                                Alianza Estratégica con Distribuidora del Norte
+                            </h3>
+                            <p
+                                class="text-gray-600 dark:text-gray-300 text-sm mb-6 flex-grow line-clamp-3 leading-relaxed">
+                                Firmamos un acuerdo clave para expandir nuestra red de distribución logística en la zona
+                                norte del país, mejorando tiempos de entrega.
+                            </p>
+                            <div class="mt-auto">
+                                <a class="inline-flex items-center text-primary font-bold text-sm hover:text-tertiary transition-colors group-hover:translate-x-1 duration-300"
+                                    href="#">
+                                    Leer Noticia <span
+                                        class="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-12 text-center">
+                    <a class="inline-block px-8 py-3 bg-transparent border-2 border-primary text-primary font-bold rounded hover:bg-primary hover:text-white transition-all shadow-sm"
+                        href="#">
+                        Cargar Más Noticias
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!-- JS -->
+    <script src="js/navbar.js"></script>
+</body>
+
+</html>

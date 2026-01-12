@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liris - Inicio</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+
+    <!-- Tailwind Config -->
+    <script src="js/main.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body
+    class="font-body bg-background-light dark:bg-background-dark text-gray-800 dark:text-gray-200 antialiased transition-colors duration-300">
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Seccion de Hero -->
+        <section class="w-full flex flex-col lg:flex-row min-h-[600px]">
+            <div
+                class="w-full lg:w-1/2 bg-gradient-to-br from-white to-yellow-50 dark:from-gray-900 dark:to-gray-800 flex items-center justify-center p-12 lg:p-20 relative order-2 lg:order-1">
+                <div class="max-w-lg fade-in-up">
+                    <h1
+                        class="font-display font-extrabold text-5xl md:text-6xl text-gray-900 dark:text-white mb-4 leading-tight">
+                        LIRIS SA
+                    </h1>
+                    <h2 class="font-display font-bold text-2xl md:text-3xl text-gray-600 dark:text-gray-300 mb-6">
+                        Innovando diariamente y mejorando nuestros productos para nuestros clientes
+                    </h2>
+                    <p class="text-lg text-gray-700 dark:text-gray-400 font-medium mb-8 leading-relaxed">
+                        En Liris, somos líderes en la industria avícola, comprometidos con la crianza, engorde y faenado
+                        de aves, ofreciendo productos de la más alta calidad para líneas Retail y al por mayor para
+                        empresas.
+                    </p>
+                    <a class="inline-flex items-center px-8 py-4 bg-tertiary text-white font-bold text-lg rounded shadow-lg hover:bg-primary transition-all transform hover:-translate-y-1"
+                        href="#">
+                        Asociémonos
+                        <span class="material-symbols-outlined ml-2">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2 relative h-96 lg:h-auto overflow-hidden group order-1 lg:order-2">
+                <img src="imgs/bodys/Granja Avicola Auto.png" alt="Hero Granja"
+                    class="absolute inset-0 w-full h-full object-cover">
+                <div class="absolute inset-0 bg-black/10"></div>
+            </div>
+        </section>
+
+        <!-- Seccion de presentacion -->
+        <section class="w-full bg-primary/90 dark:bg-gray-800 py-20 px-4">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16 fade-in-up">
+                    <h2
+                        class="font-display font-extrabold text-3xl md:text-4xl text-white mb-6 uppercase tracking-wider">
+                        NUESTRA ESENCIA: EXCELENCIA AVÍCOLA
+                    </h2>
+                    <p class="text-white/90 text-lg max-w-2xl mx-auto font-medium">
+                        Nuestros pilares garantizan la calidad y prosperidad de los clientes y el pais.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 fade-in-up delay-100">
+                    <div
+                        class="bg-white/10 backdrop-blur-sm border border-white/20 p-8 rounded-xl hover:bg-white/20 transition-all duration-300 group">
+                        <span
+                            class="material-symbols-outlined text-white text-5xl mb-4 group-hover:scale-110 transition-transform block">egg_alt</span>
+                        <h3 class="text-xl font-bold text-white mb-3">Crianza Responsable</h3>
+                        <p class="text-white/80 text-sm leading-relaxed">
+                            Aseguramos el bienestar animal y las mejores condiciones para una producción de calidad
+                            superior.
+                        </p>
+                    </div>
+                    <div
+                        class="bg-white/10 backdrop-blur-sm border border-white/20 p-8 rounded-xl hover:bg-white/20 transition-all duration-300 group">
+                        <span
+                            class="material-symbols-outlined text-white text-5xl mb-4 group-hover:scale-110 transition-transform block">factory</span>
+                        <h3 class="text-xl font-bold text-white mb-3">Procesamiento de Vanguardia</h3>
+                        <p class="text-white/80 text-sm leading-relaxed">
+                            Tecnología avanzada en faenado para garantizar la inocuidad y la frescura en cada producto.
+                        </p>
+                    </div>
+                    <div
+                        class="bg-white/10 backdrop-blur-sm border border-white/20 p-8 rounded-xl hover:bg-white/20 transition-all duration-300 group">
+                        <span
+                            class="material-symbols-outlined text-white text-5xl mb-4 group-hover:scale-110 transition-transform block">shopping_cart</span>
+                        <h3 class="text-xl font-bold text-white mb-3">Alcance a clientes mejorado</h3>
+                        <p class="text-white/80 text-sm leading-relaxed">
+                            Mediante nuestras lineas retail llegamos a mas personas a disfrutar de la calidad de
+                            nuestros productos y ayudamos a nuestros proveedores de la misma forma.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Entry a la ramas -->
+        <section class="w-full flex flex-col lg:flex-row min-h-[500px]">
+            <div
+                class="w-full lg:w-1/2 bg-white dark:bg-gray-900 relative flex items-center justify-center p-12 order-2 lg:order-1 border-b lg:border-b-0 lg:border-r border-gray-100 dark:border-gray-800">
+                <div
+                    class="opacity-10 absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]">
+                </div>
+                <div class="relative z-10 text-center">
+                    <img src="imgs/bodys/RecoleccionDePollos.png" alt="ENTRYYY">
+                </div>
+            </div>
+            <div
+                class="w-full lg:w-1/2 bg-white dark:bg-gray-900 flex items-center justify-center p-12 lg:p-20 order-1 lg:order-2">
+                <div class="max-w-lg fade-in-up">
+                    <h2 class="font-display font-bold text-3xl md:text-4xl text-gray-900 dark:text-white mb-2">
+                        NUESTRA PROMESA: Calidad y Confiabilid
+                    </h2>
+                    <h3 class="font-display text-2xl text-tertiary font-semibold mb-6">
+                        Liris: Su Socio EstratégicO
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-300 text-lg mb-8 leading-relaxed">
+                        Nos dedicamos a mantener los más altos estándares en cada producto avícola que lleva nuestro
+                        sello. Desde la granja hasta su almacén o anaquel, nuestra promesa es inquebrantable: calidad
+                        superior, volumen consistente y confianza total para su negocio.
+                    </p>
+                    <a class="inline-flex items-center px-6 py-3 bg-tertiary text-white font-bold rounded hover:bg-primary transition-colors shadow-md"
+                        href="quienes-somos.html">
+                        Conoce Quiénes Somos
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Productos Agricolas -->
+        <section class="w-full flex flex-col lg:flex-row min-h-[500px]">
+            <div class="w-full lg:w-1/2 relative h-80 lg:h-auto overflow-hidden">
+                <img alt="Pollos frescos empaquetados para distribución a gran escala"
+                    class="w-full h-full object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuChKKOF4IqbUVH44g48SIjmXWA5ZEVRBWt40VcSykhUDofMDRsVrWGCDtw7ekC91kUPBU_jkCk7YbhU-e2sNe75lOheZue2hAgaXfMn_b5c38YyQBPH3p_j6vmPf96ixxjWuLCPDJ4_n0ZtoJDApDpvbEDJ-bA-vZKBCppsbLFloD3T0inzI1AByDOV_hmG3POIQoav_OZ7NsHuq7kht2Jb1MvHh2cJU4Wa8IjQU9q_vgP-b8eYEhyyptYULhLWEoJr0VKrUEXVECNi" />
+            </div>
+            <div class="w-full lg:w-1/2 bg-secondary flex items-center justify-center p-12 lg:p-20">
+                <div class="max-w-lg fade-in-up">
+                    <h2 class="font-display font-bold text-3xl md:text-4xl text-gray-900 mb-6">
+                        Productos Avícolas de Calidad
+                    </h2>
+                    <p class="text-gray-800 text-lg mb-8 leading-relaxed font-medium">
+                        Ofrecemos una amplia gama de productos avícolas, desde pollo entero hasta cortes especializados,
+                        todos criados y procesados bajo los más estrictos controles de calidad e higiene.
+                    </p>
+                    <a class="inline-block px-6 py-3 border-2 border-gray-900 text-gray-900 font-bold rounded hover:bg-gray-900 hover:text-white transition-colors"
+                        href="#">
+                        Descubre Nuestros Productos
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Faenado -->
+        <section class="w-full flex flex-col lg:flex-row min-h-[500px]">
+            <div class="w-full lg:w-1/2 bg-tertiary flex items-center justify-center p-12 lg:p-20 order-2 lg:order-1">
+                <div class="max-w-lg fade-in-up">
+                    <h2 class="font-display font-bold text-3xl md:text-4xl text-white mb-6">
+                        Innovación y Eficiencia Operativa
+                    </h2>
+                    <p class="text-white/90 text-lg mb-8 leading-relaxed font-medium">
+                        Utilizamos tecnología de punta y procesos optimizados en cada etapa, desde la crianza hasta el
+                        empaque, para garantizar la excelencia y la consistencia en grandes volúmenes.
+                    </p>
+                    <a class="inline-block px-6 py-3 border-2 border-white text-white font-bold rounded hover:bg-white hover:text-tertiary transition-colors"
+                        href="#">
+                        Conoce Más sobre Nuestra Tecnología
+                    </a>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2 relative h-80 lg:h-auto overflow-hidden order-1 lg:order-2">
+                <img src="imgs/bodys/areaFaenado.png" alt="Área de faenado"
+                    class="absolute inset-0 w-full h-full object-cover" loading="lazy" decoding="async">
+            </div>
+        </section>
+
+        <!-- Retail -->
+        <section class="w-full flex flex-col lg:flex-row min-h-[500px]">
+            <div class="w-full lg:w-1/2 relative h-80 lg:h-auto overflow-hidden">
+                <img src="imgs/bodys/RetailSupermercado.png" alt="Área de faenado"
+                    class="absolute inset-0 w-full h-full object-cover" loading="lazy" decoding="async">
+            </div>
+            <div class="w-full lg:w-1/2 bg-white dark:bg-gray-800 flex items-center justify-center p-12 lg:p-20">
+                <div class="max-w-lg fade-in-up">
+                    <h2 class="font-display font-bold text-3xl md:text-4xl text-gray-900 dark:text-white mb-6">
+                        Linea Retail en crecimiento
+                    </h2>
+                    <p class="text-gray-600 dark:text-gray-300 text-lg mb-8 leading-relaxed">
+                        La empresa a continuado crecimiento desde sus inicios, completando su estructura lineal deseado
+                        hasta llegar al consumidor directo, creando las lineas de Supermercado Delportal y Tiendas Mio.
+                    </p>
+                    <a class="inline-block px-6 py-3 border-2 border-gray-900 dark:border-white text-gray-900 dark:text-white font-bold rounded hover:bg-gray-900 dark:hover:bg-white hover:text-white dark:hover:text-gray-900 transition-colors"
+                        href="#">
+                        Conviértase en Socio
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Productos de retail -->
+        <section class="w-full py-20 bg-secondary dark:bg-primary/20">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12 fade-in-up">
+                    <h2 class="font-display font-extrabold text-3xl md:text-5xl text-gray-900 dark:text-white mb-4">
+                        Nuestros Productos Avícolas para Retail
+                    </h2>
+                    <p class="text-lg text-gray-800 dark:text-gray-200 font-medium">
+                        Calidad Liris lista para los anaqueles de su supermercado.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 fade-in-up delay-100">
+                    <div
+                        class="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg group hover:shadow-2xl transition-all duration-300">
+                        <div class="h-48 overflow-hidden">
+                            <img alt="Pollo entero fresco empaquetado para retail"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpQxKqnitQen7oLjSv4KexL88O-O6ccAxNlhKEpgqzmPUv87QhH5nn4R2Oi8_zsnI7GAMjhkPf8TuOptaa96YrxShPk2rRKz8QyC3sIRd7hxykO0RlTRcAMibhVcUSo08-GLT6dIKOYj2DEX1PlgMz4aEgw_1dpKJKotDIXik8mMsotbq6MMudZJ1S2JGXfyjhg5Kwy3k6S5hbBZ5Vuc0Zc5qyuKr6cOQ2FoS2jBqSqSuKBkc9_PWq_38eIMhZO57WEX1IAKD2Jgu3" />
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg text-gray-900 dark:text-white">Pollo Entero Premium</h3>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Frescura garantizada</p>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg group hover:shadow-2xl transition-all duration-300">
+                        <div class="h-48 overflow-hidden">
+                            <img alt="Pechugas de pollo empaquetadas"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMsZKh7n8QeC_oLzaAHGdjmGgxSqh6pfQdjclvY1FGGzTI2y9ZO_GL6C3J9vu14nkuEUy7aITdijjhz7STax2Mvibxsxl1F-4z2fhmKTXFWijIMUWnuvgOoa726y67m8u3hvPSaW_EICjqvx0O427gUHCnEDGSFhRhc2XUbji64UmZ9PPeFTXO8VRqgDeWK6xbgnVz4My9LV_gsBy9YQhDeCERMmIfONIAJTjZjFrNm-jXM1RRJSVvpSXbDJ3WDHBziZasb9GgALth" />
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg text-gray-900 dark:text-white">Pechugas de Pollo</h3>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Listas para cocinar</p>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg group hover:shadow-2xl transition-all duration-300">
+                        <div class="h-48 overflow-hidden">
+                            <img alt="Muslos y piernas de pollo empaquetados"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZFsKdNGcXQuMk_OUqoU3eMbVUTnsW76GRjN4xyMzrQQ3A_xLFTKYon1xCHQaAqXUoY5chxfypbchMJJTgr7MXdgQ_lHPQlC0Sf2JLPUNEnH60baBL05GAor8IzE4XREYgt6mS6IR0VJpOpADSN0dFwQfRkrH-CYppqDf8qfb19dcXIwBfdgHYmYswN34WU1pL2iW54Wyz-RJ6DIAD_fJGu0P5eRKfGUe_0Y9VbRxPr0Zusm0BoO2vk3d8uO5UfZh-UBOeX-6JUZDk" />
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg text-gray-900 dark:text-white">Cortes de Pollo Surtidos</h3>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Variedad para tu mesa</p>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-lg group hover:shadow-2xl transition-all duration-300">
+                        <div class="h-48 overflow-hidden">
+                            <img alt="Huevos de granja en envase para retail"
+                                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXLEBlzEx6aEXxqEqD_J140wJ2y5LKHBdTFj2KvprmDWnZ5lGy19S9LZE4HHK4msL5E_efoxwa7Tz_eIOqVf_fJGqUXgxOXIEQmQBSsjK3jz5SH7yRtR4XBGmblOpBoUkUKOTPjdLFWQHYsFpDFQy0C48YFIb9bn_bx24HXn0Tjrr1En0NK64vAXcsvaLZLUOxkRGkZ5sKL24VSAwaiKSP73KPk8Bax9zZopHbFcuZkKtkeriWYwneTexSUwWSaog_U7sHJJ6SGIqb" />
+                        </div>
+                        <div class="p-4">
+                            <h3 class="font-bold text-lg text-gray-900 dark:text-white">Huevos de Corral Frescos</h3>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mt-1">Elaborados con cuidado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nuestras marcas -->
+        <section class="w-full py-16 bg-white dark:bg-gray-900">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12 fade-in-up">
+                    <h2 class="font-display font-extrabold text-3xl md:text-4xl text-gray-900 dark:text-white mb-4">
+                        Nuestras Marcas
+                    </h2>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 font-medium max-w-2xl mx-auto">
+                        Trabajamos con una selecta red de marcas para ofrecer la mejor calidad en el mercado.
+                    </p>
+                </div>
+                <div
+                    class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-x-2 gap-y-8 justify-items-center items-center fade-in-up delay-100">
+                    <div class="w-32 h-20 flex items-center justify-center p-2">
+                        <img src="imgs/logos/Carnes-Las-Elenes.png" alt="Logo las elenas">
+                    </div>
+                    <div class="w-32 h-20 flex items-center justify-center p-2">
+                        <img src="imgs/logos/Central.png" alt="Central de carnes">
+                    </div>
+                    <div class="w-32 h-20 flex items-center justify-center p-2">
+                        <img src="imgs/logos/Delportal.png" alt="logo del portal">
+                    </div>
+                    <div class="w-32 h-20 flex items-center justify-center p-2">
+                        <img src="imgs/logos/Liris-alimentos.png" alt="Logo Liris-alimentos">
+                    </div>
+                    <div class="w-32 h-20 flex items-center justify-center p-2">
+                        <img src="imgs/logos/Mio.png" alt="Logo Mio">
+                    </div>
+                    <div class="w-32 h-20 flex items-center justify-center p-2">
+                        <img src="imgs/logos/Pollo-Pechugón.png" alt="Logo Pollo-Pechugoon">
+                    </div>
+                    <div class="w-32 h-20 flex items-center justify-center p-2">
+                        <img src="imgs/logos/Salchos.png" alt="Logo Salchos">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificados -->
+        <section class="w-full py-16 bg-surface-light dark:bg-gray-800">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12 fade-in-up">
+                    <h2 class="font-display font-extrabold text-3xl md:text-4xl text-gray-900 dark:text-white mb-4">
+                        Nuestros Certificados
+                    </h2>
+                    <p class="text-lg text-gray-700 dark:text-gray-300 font-medium max-w-2xl mx-auto">
+                        Comprometidos con la calidad y los más altos estándares de la industria, avalados por
+                        certificaciones reconocidas.
+                    </p>
+                </div>
+                <div class="max-w-2xl mx-auto flex justify-center">
+                    <div class="inline-flex flex-wrap justify-center gap-x-8 gap-y-6">
+
+                        <div class="w-32 h-20 flex items-center justify-center">
+                            <img src="imgs/logos/AGROCALIDAD_AGROCALIDAD-300x93.png" alt="Logo AGROCALIDAD"
+                                class="max-h-full max-w-full object-contain">
+                        </div>
+
+                        <div class="w-32 h-20 flex items-center justify-center">
+                            <img src="imgs/logos/certificado_UKAS.jpg" alt="Certificado UKAS"
+                                class="max-h-full max-w-full object-contain">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <!-- JS -->
+    <script src="js/navbar.js"></script>
+</body>
+
+</html>
